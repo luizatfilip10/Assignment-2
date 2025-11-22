@@ -32,7 +32,7 @@ Using spaCy (en_core_web_sm), the following annotations were added:
 
 3. The annotated_dataset.csv file contains:
    - Filename &rarr; name of the .txt file
-   - Title &rarr;  title of the son
+   - Title &rarr;  title of the song
    - Album &rarr; the album each song belongs to
    - Artist &rarr; name of the band (Sleep Token)
    - Year &rarr; year of release
