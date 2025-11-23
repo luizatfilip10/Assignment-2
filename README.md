@@ -21,29 +21,26 @@ Using spaCy (en_core_web_sm), the following annotations were added:
 ## Corpus format 
 1. The raw .txt files of each song
 2. The metadata.csv file: 
-
-| Column Name  | Description | Data Type |
-| ------------- | ------------- | ------------- |
-| FILENAME  | name of the .txt file | text |
-| TITLE  | title of the song  | text |
-| ALBUM | the album each song belongs to  | text |
-| ARTIST  | name of the band (Sleep Token) | text |
-| YEAR  | year of release  | number |
+- FILENAME &rarr; name of the .txt file
+- TITLE &rarr; title of the song 
+- ALBUM &rarr; the album each song belongs to 
+- ARTIST &rarr; name of the band (Sleep Token) 
+- YEAR &rarr; year of release 
 
 3. The annotated_dataset.csv file contains:
-   - Filename &rarr; name of the .txt file
-   - Title &rarr;  title of the song
-   - Album &rarr; the album each song belongs to
-   - Artist &rarr; name of the band (Sleep Token)
-   - Year &rarr; year of release
-   - Text &rarr; the original text
-   - Document &rarr; the preprocessed text for analysis
-   - Tokens &rarr; the segmentated strings into individual words and punctuation markers
-   - Lemmas &rarr; the retreived dictionary root word of each word
-   - POS &rarr; includes the part-of-speech tag for each token (e.g., noun, verb, adjective, adverb)
-   - Proper_Nouns &rarr; list of all tokens in each song that were tagged with the PROPN part-of-speech tag
-   - Named_Entities &rarr; the entities identified by spaCy’s NER
-   - NE_Words &rarr; the actual text strings of the named entities detected by spaCy
+- Filename &rarr; name of the .txt file
+- Title &rarr;  title of the song
+- Album &rarr; the album each song belongs to
+- Artist &rarr; name of the band (Sleep Token)
+- Year &rarr; year of release
+- Text &rarr; the original text
+- Document &rarr; the preprocessed text for analysis
+- Tokens &rarr; the segmentated strings into individual words and punctuation markers
+- Lemmas &rarr; the retreived dictionary root word of each word
+- POS &rarr; includes the part-of-speech tag for each token (e.g., noun, verb, adjective, adverb)
+- Proper_Nouns &rarr; list of all tokens in each song that were tagged with the PROPN part-of-speech tag
+- Named_Entities &rarr; the entities identified by spaCy’s NER
+- NE_Words &rarr; the actual text strings of the named entities detected by spaCy
    
 ## Quality checks 
 No quality check has been done for the corpus, the lyrics were copied and pasted as they were found from the website. 
