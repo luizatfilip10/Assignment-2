@@ -12,7 +12,7 @@ Metadata (title, album, artist and year) was compiled in a CSV file.
 Minimal cleaning has been done: removing from the .txt files the common annotations of song lyrics. Terms such as [Chorus], [Verse 1,2,3], [Instrumental break] have been erased before starting the analysis.
 ## Annotations
 Using spaCy (en_core_web_sm), the following annotations were added:
-1. Tokens
+1. Tokens (haha, get it, Sleep TOKEN)
 2. Lemmas
 3. Parts-of-Speech (POS)
 4. Proper nouns
