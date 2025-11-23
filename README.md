@@ -1,6 +1,9 @@
 # Documentation
 ## Corpus description
 This corpus consists of lyrics from six Sleep Token songs. The first three songs, Blood Sports, Dangerous, and Dark Signs, come from the band’s debut-era releases in 2019, while the latter three, Ghestomane, Look at Windward, and Sugar, are drawn from their most recent album released in 2025. All lyrics are in English and the goal of this dataset is to explore how Sleep Token’s lyrical style may have shifted over time, as well as to identify distinctive linguistic patterns across songs. The corpus of lyrics was taken from the website Genius.com
+## Possible Research Question
+Because the dataset reflects two different creative periods in the band’s discography, it opens several potential avenues for linguistic or stylistic investigation. A research question that could be explored (especially with a larger corpus) includes:
+- How has Sleep Token’s lyrical complexity evolved between 2019 and 2025?
 ## Target audience
 The target audience for this corpus includes students in linguistics or digital humanities who are learning to build small corpora and practice POS-based annotation using tools like spaCy. It is also relevant for researchers interested in the linguistic features of song lyrics, particularly those examining stylistic or thematic patterns across different creative periods. Lastly, fans or analysts of Sleep Token with an interest in lyric interpretation.
 ## Text selection
