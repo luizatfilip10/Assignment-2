@@ -9,7 +9,7 @@ Six songs were selected for this analysis. Three from their first album (2019) a
 Lyrics were collected from the website Genius.com and each song's lyrics were copy/pasted into plain .txt files into the data folder.
 Metadata (title, album, artist and year) was compiled in a CSV file. 
 ## Cleaning and preprocessing 
-No cleaning or preprocessing was done to the dataset
+Minimal cleaning has been done: removing from the .txt files the common annotations of song lyrics. Terms such as [Chorus], [Verse 1,2,3], [Instrumental break] have been erased before starting the analysis.
 ## Annotations
 Using spaCy (en_core_web_sm), the following annotations were added:
 1. Tokens
@@ -31,18 +31,19 @@ Using spaCy (en_core_web_sm), the following annotations were added:
 | YEAR  | year of release  | number |
 
 3. The annotated_dataset.csv file contains:
-   - Filename &rarr; name of the .txt file
-   - Title &rarr;  title of the song
-   - Album &rarr; the album each song belongs to
-   - Artist &rarr; name of the band (Sleep Token)
-   - Year &rarr; year of release
-   - Text &rarr; the original text
-   - Document &rarr; the preprocessed text for analysis
-   - Tokens &rarr; the segmentated strings into individual words and punctuation markers
-   - Lemmas &rarr; the retreived dictionary root word of each word
-   - POS &rarr; includes the part-of-speech tag for each token (e.g., noun, verb, adjective, adverb)
-   - Proper_Nouns &rarr; list of all tokens in each song that were tagged with the PROPN part-of-speech tag
-   - Named_Entities &rarr; the entities identified by spaCy’s NER
-   - NE_Words &rarr; the actual text strings of the named entities detected by spaCy
+   - Filename 
+   - Title 
+   - Album 
+   - Artist 
+   - Year 
+   - Text 
+   - Document
+   - Tokens 
+   - Lemmas 
+   - POS 
+   - Proper_Nouns
+   - Named_Entities 
+   - NE_Words
+   
 ## Quality checks 
 No quality check has been done for the corpus, the lyrics were copied and pasted as they were found from the website. 
