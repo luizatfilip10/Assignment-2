@@ -12,7 +12,8 @@ Six songs were selected for this analysis. Three from their first album (2019) a
 Lyrics were collected from the website Genius.com and each song's lyrics were copy/pasted into plain .txt files into the data folder.
 Metadata (title, album, artist and year) was compiled in a CSV file. 
 ## Cleaning and preprocessing 
-Minimal cleaning has been done: removing from the .txt files the common annotations of song lyrics. Terms such as [Chorus], [Verse 1,2,3], [Instrumental break] have been erased before starting the analysis.
+Minimal cleaning has been done: removing from the .txt files the common annotations of song lyrics, terms such as [Chorus], [Verse 1,2,3], [Instrumental break].
+Some preprocessing has been done: normalizing informal contractions to their formal equivalents
 ## Annotations
 Using spaCy (en_core_web_sm), the following annotations were added:
 1. Tokens (haha, get it, Sleep TOKEN)
